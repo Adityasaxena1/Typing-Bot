@@ -30,19 +30,3 @@ driver.quit()
 
 
 
-
-
-# for _ in range(20):
-# words = driver.find_elements(By.CLASS_NAME, value='word')
-# words = driver.find_element(By.CSS_SELECTOR, '#words .active')
-# print(words.text)
-# keys = driver.find_element(By.ID, value='wordsInput')
-# keys.send_keys(f'{words.text} ')
-# words = driver.find_elements(By., 'words')
-# print(words.text)
-#
-# for word in words:
-#     print(word.text)
-#     keys = driver.find_element(By.ID, value='wordsInput')
-#     keys.send_keys(f'{word.text} ')
-# //*[@id="words"]/div[2]
